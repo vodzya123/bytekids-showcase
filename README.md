@@ -87,7 +87,6 @@
 | Проекты Scratch/Python | ![Проекты](screenshots/student/09-projects.png) |
 | Портфолио (Моя лаборатория) | ![Портфолио](screenshots/student/10-portfolio.png) |
 | Доп. занятия Word | ![Доп Word](screenshots/student/11-extra-lessons-word.png) |
-| Доп. занятия Python | ![Доп Python](screenshots/student/12-extra-lessons-python.png) |
 | Задание Hello World | ![Задание 1](screenshots/student/13-task-hello-world.png) |
 | Задание Turtle | ![Turtle задание](screenshots/student/14-task-turtle.png) |
 

@@ -9,7 +9,7 @@ screenshots/
 ├── demo/          — вход (2)
 ├── admin/         — админка (14)
 ├── teacher/       — преподаватель (7)
-└── student/       — ученик (14)
+└── student/       — ученик (13)
 ```
 
 **Всего: 37 скриншотов**
@@ -39,6 +39,5 @@ BYTEKIDS_BASE_URL=https://bytekids.online python3 scripts/capture_screenshots.py
 | 09-projects | Проекты |
 | 10-portfolio | Моя лаборатория |
 | 11-extra-lessons-word | Доп. занятия Word |
-| 12-extra-lessons-python | Доп. занятия Python |
 | 13-task-hello-world | Задание Hello World |
 | 14-task-turtle | Задание Turtle |
