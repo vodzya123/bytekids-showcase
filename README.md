@@ -29,15 +29,63 @@ The demo is for exploration only: some actions are disabled (settings changes, r
 
 ### Key features
 
-ByteKids covers the full workflow of a coding school — from website inquiries to daily classes, payments, student motivation, and parent updates. Overview by role; the [demo](https://bytekids.online/demo) uses fictional data and a limited write scope.
+ByteKids covers the full workflow of a coding school — from website inquiries to daily classes, payments, student motivation, and parent reporting. Overview by role; the [demo](https://bytekids.online/demo) uses fictional data and a limited set of write operations.
 
-**Administrator** — central dashboard for a school or branch: students and groups, printable QR student cards, office schedule, payments and lesson balance, coin economy, homework, remarks and rewards, attendance (including QR check-in), form submissions, training contracts (PDF), shop orders, child reports, assigned projects, analytics, staff notifications, office settings.
+#### Administrator
 
-**Teacher** — workspace scoped to own groups: dashboard, shared and personal schedule, group roster, student cards with QR, income tracking, remarks, shop order handling.
+Central dashboard for a school or branch.
 
-**Student** — gamified learning portal: login or QR card, course modules (Python, Turtle, Pygame, etc.), interactive coding tasks with auto-grading, homework, Scratch/Python projects, personal portfolio (“My Lab”), extra lessons, coin shop, profile with progress map, detailed stats.
+- **Students and groups** — unified list, group assignment, archive of removed students, quick search, student card with parent contacts, balance, and lesson history.
+- **Cards and QR** — printable student cards with QR codes for login and class check-in; bulk printing by group.
+- **Schedule** — office-wide schedule: groups, teachers, rooms, rescheduling, and recurring time slots.
+- **Payments and balance** — paid lessons tracking, credit and debit history, debt control, revenue analytics.
+- **Coins** — in-school currency: rewards for achievements, shop spending, per-student transaction history.
+- **Homework** — assignment and review, completion status, linked to course modules.
+- **Remarks and rewards** — behavior and achievement notes visible to teachers and admins.
+- **Attendance** — class presence log, including QR check-in.
+- **Forms and inquiries** — website sign-ups, surveys, masterclass applications; alerts for new submissions.
+- **Contracts** — training agreements: signing, PDF export, e-mail delivery.
+- **Shop** — prize and merch orders paid with coins: status, fulfillment, pending queue.
+- **Child reports** — progress and activity summaries for parents and administration.
+- **Assigned projects** — creative and capstone projects assigned to students and groups.
+- **Analytics** — dashboard with key metrics: students, groups, payments, activity.
+- **Notifications** — staff event feed: inquiries, orders, system messages.
+- **Office settings** — branch parameters, access control, partner demo links (in production).
 
-**Cross-cutting** — role-based access, multi-branch (multi-office) support, isolated 12-hour demo for partners, staff notifications, integrations (Telegram parent bot, VK, payments, QR attendance).
+#### Teacher
+
+A focused workspace — only own groups and students, without noise from other branches.
+
+- **Dashboard** — overview of upcoming classes, groups, and quick actions for today.
+- **Schedule** — school-wide schedule plus personal events and teacher notes.
+- **Groups** — group roster, jump to student card, progress overview.
+- **Student card** — profile, contacts, coins, remarks, login QR.
+- **Income** — transparent tracking of earnings and payouts per delivered lesson.
+- **Remarks and rewards** — student notes within granted permissions.
+- **Shop orders** — processing orders from students in own groups.
+
+#### Student
+
+Personal portal with gamification: modules, tasks, coins, and a project portfolio.
+
+- **Login** — username/password or QR card scan at class.
+- **Course modules** — structured tracks: Python, Turtle, Pygame, and more; topic progress map.
+- **Interactive tasks** — built-in code editor, step-by-step challenges with automatic solution checking.
+- **Homework** — assigned tasks, deadlines, submission status, and feedback.
+- **Projects** — Scratch and Python projects: create, save, showcase work.
+- **My Lab** — personal portfolio: published projects and achievements.
+- **Extra lessons** — supplementary materials and mini-courses (e.g. Word, Python) outside the main program.
+- **Coin shop** — exchange earned coins for prizes, stickers, and school rewards.
+- **Profile** — avatar, name, coin balance, progress map, Face ID, lab links.
+- **Statistics** — detailed progress across modules, completed tasks, and activity.
+
+#### Cross-cutting
+
+- **Three roles in one system** — administrator, teacher, and student with permission boundaries and a shared database.
+- **Multi-office** — multiple branches with isolated students, schedules, and settings; suitable for school networks.
+- **Demo mode** — isolated 12-hour environment with three test accounts for partners and interested schools.
+- **Notifications** — staff alerts for inquiries and events; parent channels in production.
+- **Integrations** — Telegram parent bot, VK (panel and reminders), payment processing, QR attendance.
 
 Partner overview: [docs/features.md](docs/features.md) (Russian).
 
@@ -45,15 +93,60 @@ Partner overview: [docs/features.md](docs/features.md) (Russian).
 
 All captures from the [demo](https://bytekids.online/demo) with fictional data.
 
+#### Demo and login
+
+| | |
+|---|---|
+| Login page | ![Login](screenshots/demo/02-login.png) |
+
+#### Administrator
+
 | Section | |
 |---------|---|
-| Login | ![Login](screenshots/demo/02-login.png) |
+| Dashboard | ![Admin](screenshots/admin/01-dashboard.png) |
+| Schedule | ![Schedule](screenshots/admin/02-schedule.png) |
+| Payments | ![Payments](screenshots/admin/03-payments.png) |
+| Analytics | ![Analytics](screenshots/admin/04-analytics.png) |
+| Shop orders | ![Orders](screenshots/admin/05-booking-orders.png) |
+| Remarks and rewards | ![Remarks](screenshots/admin/06-remarks.png) |
+| Attendance | ![Attendance](screenshots/admin/07-attendance.png) |
+| Surveys and forms | ![Forms](screenshots/admin/08-forms.png) |
+| Homework | ![Homework](screenshots/admin/09-homework.png) |
+| Child reports | ![Reports](screenshots/admin/10-student-reports.png) |
+| Student card | ![Student card](screenshots/admin/11-student-card.png) |
+| Group | ![Group](screenshots/admin/12-group.png) |
+| Assigned projects | ![Projects](screenshots/admin/13-assigned-projects.png) |
+| Notifications | ![Notifications](screenshots/admin/14-notifications.png) |
 
-**Admin:** dashboard, schedule, payments, analytics, shop orders, remarks, attendance, forms, homework, child reports, student card, group, assigned projects, notifications — see full gallery in the [Russian section](#скриншоты).
+#### Teacher
 
-**Teacher:** dashboard, schedule, income, remarks, student card, group, orders.
+| Section | |
+|---------|---|
+| Dashboard | ![Teacher](screenshots/teacher/01-dashboard.png) |
+| Schedule | ![Schedule](screenshots/teacher/02-schedule.png) |
+| Income | ![Income](screenshots/teacher/03-income.png) |
+| Remarks | ![Remarks](screenshots/teacher/04-remarks.png) |
+| Student card | ![Student card](screenshots/teacher/05-student-card.png) |
+| Group | ![Group](screenshots/teacher/06-group.png) |
+| Orders | ![Orders](screenshots/teacher/07-booking-orders.png) |
 
-**Student:** modules, Python/Turtle/Pygame tracks, homework, coin shop, profile, stats, projects, portfolio, extra lessons, coding tasks.
+#### Student
+
+| Section | |
+|---------|---|
+| Modules overview | ![Modules](screenshots/student/01-modules-overview.png) |
+| Python module | ![Python](screenshots/student/02-module-python.png) |
+| Turtle module | ![Turtle](screenshots/student/03-module-turtle.png) |
+| Pygame module | ![Pygame](screenshots/student/04-module-pygame.png) |
+| Homework | ![Homework](screenshots/student/05-homework.png) |
+| Coin shop | ![Shop](screenshots/student/06-shop.png) |
+| Student profile | ![Profile](screenshots/student/07-profile.png) |
+| Progress stats | ![Stats](screenshots/student/08-stats.png) |
+| Scratch/Python projects | ![Projects](screenshots/student/09-projects.png) |
+| Portfolio (My Lab) | ![Portfolio](screenshots/student/10-portfolio.png) |
+| Extra lessons (Word) | ![Extra Word](screenshots/student/11-extra-lessons-word.png) |
+| Hello World task | ![Task 1](screenshots/student/13-task-hello-world.png) |
+| Turtle task | ![Turtle task](screenshots/student/14-task-turtle.png) |
 
 ### Who it is for
 
@@ -89,7 +182,9 @@ Implementation details and source code — by agreement (license / white-label).
 
 ### License
 
-© ByteKids. All rights reserved. Materials in this repository may be quoted with a link to [bytekids.online](https://bytekids.online). Trademark use and UI copying without permission is prohibited.
+© ByteKids. All rights reserved.  
+Materials in this repository (text, screenshots) may be quoted with a link to [bytekids.online](https://bytekids.online).  
+Trademark use and copying of the interface without permission is prohibited.
 
 ---
 
