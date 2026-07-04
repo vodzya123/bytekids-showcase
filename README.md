@@ -1,4 +1,99 @@
-# ByteKids — платформа для школы программирования
+# ByteKids — Coding School Management Platform
+
+> **English** below · **Русский:** [перейти к русской версии](#русский)
+
+---
+
+## English
+
+> [!WARNING]
+> **Actively in development.** Features are updated regularly; the [demo](https://bytekids.online/demo) may include incomplete or temporarily unavailable sections.
+>
+> **Contact the developer:** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit) — questions about the platform, demo access, and onboarding for schools.
+
+ByteKids is an all-in-one environment for coding schools: admins, teachers, and students work in a single system. Scheduling, course modules with assignments, gamification via coins, payments, and parent reporting — without juggling spreadsheets and third-party tools.
+
+Web platform for running a coding school: students, groups, schedule, payments, notifications, and three roles — administrator, teacher, and student.
+
+**Source code is not public.** Available as a cloud service (SaaS) or turnkey deployment.
+
+### Try it free
+
+| | |
+|---|---|
+| **Demo access (12 hours)** | [bytekids.online/demo](https://bytekids.online/demo) |
+| **After signup** | 3 roles: admin, teacher, student |
+| **Demo data** | Fictional, no real customer data |
+
+The demo is for exploration only: some actions are disabled (settings changes, real payments, etc.).
+
+### Key features
+
+ByteKids covers the full workflow of a coding school — from website inquiries to daily classes, payments, student motivation, and parent updates. Overview by role; the [demo](https://bytekids.online/demo) uses fictional data and a limited write scope.
+
+**Administrator** — central dashboard for a school or branch: students and groups, printable QR student cards, office schedule, payments and lesson balance, coin economy, homework, remarks and rewards, attendance (including QR check-in), form submissions, training contracts (PDF), shop orders, child reports, assigned projects, analytics, staff notifications, office settings.
+
+**Teacher** — workspace scoped to own groups: dashboard, shared and personal schedule, group roster, student cards with QR, income tracking, remarks, shop order handling.
+
+**Student** — gamified learning portal: login or QR card, course modules (Python, Turtle, Pygame, etc.), interactive coding tasks with auto-grading, homework, Scratch/Python projects, personal portfolio (“My Lab”), extra lessons, coin shop, profile with progress map, detailed stats.
+
+**Cross-cutting** — role-based access, multi-branch (multi-office) support, isolated 12-hour demo for partners, staff notifications, integrations (Telegram parent bot, VK, payments, QR attendance).
+
+Partner overview: [docs/features.md](docs/features.md) (Russian).
+
+### Screenshots
+
+All captures from the [demo](https://bytekids.online/demo) with fictional data.
+
+| Section | |
+|---------|---|
+| Login | ![Login](screenshots/demo/02-login.png) |
+
+**Admin:** dashboard, schedule, payments, analytics, shop orders, remarks, attendance, forms, homework, child reports, student card, group, assigned projects, notifications — see full gallery in the [Russian section](#скриншоты).
+
+**Teacher:** dashboard, schedule, income, remarks, student card, group, orders.
+
+**Student:** modules, Python/Turtle/Pygame tracks, homework, coin shop, profile, stats, projects, portfolio, extra lessons, coding tasks.
+
+### Who it is for
+
+- Coding and robotics schools  
+- Small learning centers with several groups  
+- Multi-branch networks
+
+### Contact
+
+- **VK (developer):** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit)  
+- **Website:** [bytekids.online](https://bytekids.online)  
+- **Demo:** [bytekids.online/demo](https://bytekids.online/demo)
+
+Message with your city, number of students, and whether you need multiple branches — we will reply with onboarding options.
+
+### Tech stack
+
+| Layer | |
+|-------|---|
+| Backend | Python, Flask, Gunicorn |
+| Database | PostgreSQL |
+| Frontend | HTML, Tailwind, JavaScript |
+| Integrations | Telegram, VK, payments |
+
+Implementation details and source code — by agreement (license / white-label).
+
+### Repositories
+
+| Repository | Access | Contents |
+|------------|--------|----------|
+| **bytekids-showcase** (this repo) | Public | Description, screenshots, demo links |
+| **bytekids** | Private | Application source code |
+
+### License
+
+© ByteKids. All rights reserved. Materials in this repository may be quoted with a link to [bytekids.online](https://bytekids.online). Trademark use and UI copying without permission is prohibited.
+
+---
+
+## Русский
 
 > [!WARNING]
 > **Платформа в активной разработке.** Функционал регулярно обновляется; в [демо-версии](https://bytekids.online/demo) могут встречаться неработающие или незавершённые разделы.
