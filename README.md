@@ -9,7 +9,7 @@
 > [!WARNING]
 > **Actively in development.** Features are updated regularly; the [demo](https://bytekids.online/demo) may include incomplete or temporarily unavailable sections.
 >
-> **Contact the developer:** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit) — questions about the platform, demo access, and onboarding for schools.
+> **Contact the developer:** [VK](https://vk.com/alexsandrovvit) · [Telegram @vodzya](https://t.me/vodzya) — questions about the platform, demo access, and onboarding for schools.
 
 ByteKids is an all-in-one environment for coding schools: admins, teachers, and students work in a single system. Scheduling, course modules with assignments, gamification via coins, payments, and parent reporting — without juggling spreadsheets and third-party tools.
 
@@ -157,6 +157,7 @@ All captures from the [demo](https://bytekids.online/demo) with fictional data.
 ### Contact
 
 - **VK (developer):** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit)  
+- **Telegram:** [@vodzya](https://t.me/vodzya)  
 - **Website:** [bytekids.online](https://bytekids.online)  
 - **Demo:** [bytekids.online/demo](https://bytekids.online/demo)
 
@@ -193,7 +194,7 @@ Trademark use and copying of the interface without permission is prohibited.
 > [!WARNING]
 > **Платформа в активной разработке.** Функционал регулярно обновляется; в [демо-версии](https://bytekids.online/demo) могут встречаться неработающие или незавершённые разделы.
 >
-> **Связь с разработчиком:** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit) — вопросы по платформе, демо, подключению школы.
+> **Связь с разработчиком:** [ВКонтакте](https://vk.com/alexsandrovvit) · [Telegram @vodzya](https://t.me/vodzya) — вопросы по платформе, демо, подключению школы.
 
 ByteKids — единая среда для школы программирования: администрация, преподаватели и ученики работают в одной системе. Расписание, модули с заданиями, мотивация через монеты, оплаты, отчёты для родителей — без набора разрозненных таблиц и сторонних сервисов.
 
@@ -351,6 +352,7 @@ ByteKids закрывает полный цикл работы школы про
 ## Подключение и сотрудничество
 
 - **ВКонтакте:** [vk.com/alexsandrovvit](https://vk.com/alexsandrovvit)  
+- **Telegram:** [@vodzya](https://t.me/vodzya)  
 - **Сайт:** [bytekids.online](https://bytekids.online)  
 - **Демо:** [bytekids.online/demo](https://bytekids.online/demo)
 
