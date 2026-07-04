@@ -90,8 +90,6 @@
 | Задание Hello World | ![Задание 1](screenshots/student/13-task-hello-world.png) |
 | Задание Turtle | ![Turtle задание](screenshots/student/14-task-turtle.png) |
 
-Обновить скрины: `python3 scripts/capture_screenshots.py` (см. [screenshots/README.md](screenshots/README.md)).
-
 ---
 
 ## Для кого
