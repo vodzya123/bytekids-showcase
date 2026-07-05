@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  metadata: write
+  administration: write
 
 jobs:
   sync-metadata:
@@ -26,5 +26,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh api --method PUT "repos/${{ github.repository }}/topics" \
-            -H "Accept: application/vnd.github.mercy-preview+json" \
-            -f names='["bytekids","coding-school","education","flask","python","saas","school-management","demo","edtech","learning-management-system"]'
+            --input - <<'JSON'
+          {"names":["bytekids","coding-school","education","flask","python","saas","school-management","demo","edtech","learning-management-system"]}
+          JSON
