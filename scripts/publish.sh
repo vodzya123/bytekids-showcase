@@ -32,3 +32,10 @@ else
 fi
 
 echo "Готово: https://github.com/${REPO}"
+
+PROFILE_REPO="${GITHUB_PROFILE_REPO:-vodzya123/vodzya123}"
+PROFILE_DIR="${GITHUB_PROFILE_DIR:-../vodzya123-profile}"
+if [[ -d "${PROFILE_DIR}/.git" ]] && [[ -f "${PROFILE_DIR}/README.md" ]]; then
+  echo "Публикация README профиля: ${PROFILE_REPO}"
+  git -C "${PROFILE_DIR}" push origin main 2>/dev/null || git -C "${PROFILE_DIR}" push -u origin main
+fi

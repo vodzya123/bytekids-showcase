@@ -1,5 +1,17 @@
 # ByteKids — Coding School Management Platform
 
+[![Website](https://img.shields.io/badge/website-bytekids.online-0e5a43?style=for-the-badge)](https://bytekids.online)
+[![Demo](https://img.shields.io/badge/demo-12h_free-2563eb?style=for-the-badge)](https://bytekids.online/demo)
+[![Telegram](https://img.shields.io/badge/Telegram-@vodzya-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vodzya)
+
+**ByteKids** — веб-платформа для школ программирования и робототехники: ученики, группы, расписание, оплаты, модули Python/Scratch, монеты, QR-посещаемость, отчёты для родителей.
+
+| | |
+|---|---|
+| **Сайт** | [bytekids.online](https://bytekids.online) |
+| **Демо (12 ч)** | [bytekids.online/demo](https://bytekids.online/demo) |
+| **Контакты** | [VK](https://vk.com/alexsandrovvit) · [Telegram @vodzya](https://t.me/vodzya) |
+
 > **English** below · **Русский:** [перейти к русской версии](#русский)
 
 ---
